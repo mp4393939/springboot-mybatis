@@ -61,3 +61,14 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+
+Thumbs.db
+#Ignore files build by Visual Studio
+dependency-reduced-pom.xml
+**/*.ipr
+**/*.iml
+**/*.iws
+**/target
+.idea/*
